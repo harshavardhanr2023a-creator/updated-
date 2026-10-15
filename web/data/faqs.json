@@ -1,0 +1,524 @@
+{
+  "_note": "Add entries by copying a block. 'questions' can mix languages. 'answers' needs 'en'; other languages are optional. Replace every [PLACEHOLDER] with real data.",
+  "faqs": [
+    {
+      "id": "contact",
+      "category": "General",
+      "verified": false,
+      "questions": [
+        "What is the VIT Vellore phone number and address?",
+        "How can I contact VIT?",
+        "VIT contact details",
+        "वीआईटी से संपर्क कैसे करें?",
+        "வி.ஐ.டி தொடர்பு எண் என்ன?"
+      ],
+      "answers": {
+        "en": "VIT Vellore, Katpadi, Vellore – 632014, Tamil Nadu. Phone: +91 416 224 3091. Email: info@vit.ac.in. Website: https://vit.ac.in",
+        "ta": "வி.ஐ.டி வேலூர், காட்பாடி, வேலூர் – 632014, தமிழ்நாடு. தொலைபேசி: +91 416 224 3091. மின்னஞ்சல்: info@vit.ac.in. இணையதளம்: https://vit.ac.in",
+        "te": "వి.ఐ.టి వెల్లూరు, కాట్పాడి, వెల్లూరు – 632014, తమిళనాడు. ఫోన్: +91 416 224 3091. ఈమెయిల్: info@vit.ac.in. వెబ్‌సైట్: https://vit.ac.in",
+        "ml": "വി.ഐ.ടി വെല്ലൂർ, കാട്പാടി, വെല്ലൂർ – 632014, തമിഴ്‌നാട്. ഫോൺ: +91 416 224 3091. ഇമെയിൽ: info@vit.ac.in. വെബ്സൈറ്റ്: https://vit.ac.in",
+        "hi": "वीआईटी वेल्लोर, काटपाडी, वेल्लोर – 632014, तमिलनाडु। फोन: +91 416 224 3091। ईमेल: info@vit.ac.in। वेबसाइट: https://vit.ac.in"
+      }
+    },
+    {
+      "id": "admissions",
+      "category": "Admissions",
+      "verified": false,
+      "questions": [
+        "How can I get admission to B.Tech?",
+        "What is the admission process?",
+        "How to contact the admissions office?",
+        "Admission email and phone",
+        "प्रवेश प्रक्रिया क्या है?",
+        "சேர்க்கை எப்படி நடைபெறும்?",
+        "అడ్మిషన్ ఎలా పొందాలి?",
+        "പ്രവേശനം എങ്ങനെ ലഭിക്കും?"
+      ],
+      "answers": {
+        "en": "B.Tech admission is through VITEEE. Apply online at https://vit.ac.in. Admissions email: admissions@vit.ac.in. Phone: +91 416 XXX XXXX [PLACEHOLDER].",
+        "ta": "பி.டெக் சேர்க்கை VITEEE தேர்வு மூலம் நடைபெறும். https://vit.ac.in இல் ஆன்லைனில் விண்ணப்பிக்கவும். மின்னஞ்சல்: admissions@vit.ac.in. தொலைபேசி: +91 416 XXX XXXX [PLACEHOLDER].",
+        "te": "బి.టెక్ ప్రవేశం VITEEE ద్వారా జరుగుతుంది. https://vit.ac.in లో ఆన్‌లైన్‌లో దరఖాస్తు చేయండి. ఈమెయిల్: admissions@vit.ac.in. ఫోన్: +91 416 XXX XXXX [PLACEHOLDER].",
+        "ml": "ബി.ടെക് പ്രവേശനം VITEEE വഴിയാണ്. https://vit.ac.in ൽ ഓൺലൈനായി അപേക്ഷിക്കുക. ഇമെയിൽ: admissions@vit.ac.in. ഫോൺ: +91 416 XXX XXXX [PLACEHOLDER].",
+        "hi": "बी.टेक प्रवेश VITEEE के माध्यम से होता है। https://vit.ac.in पर ऑनलाइन आवेदन करें। ईमेल: admissions@vit.ac.in। फोन: +91 416 XXX XXXX [PLACEHOLDER]।"
+      }
+    },
+    {
+      "id": "courses",
+      "category": "Academics",
+      "verified": false,
+      "questions": [
+        "What courses does VIT offer?",
+        "Which programmes are available?",
+        "List of degrees at VIT",
+        "कौन से कोर्स उपलब्ध हैं?",
+        "என்ன படிப்புகள் உள்ளன?"
+      ],
+      "answers": {
+        "en": "VIT offers B.Tech, M.Tech, MCA, MBA, M.Sc, B.Sc and Ph.D. programmes across its schools. See https://vit.ac.in for the current list.",
+        "ta": "வி.ஐ.டி-யில் பி.டெக், எம்.டெக், எம்.சி.ஏ, எம்.பி.ஏ, எம்.எஸ்சி, பி.எஸ்சி மற்றும் பி.எச்டி படிப்புகள் உள்ளன. விவரங்களுக்கு https://vit.ac.in பார்க்கவும்.",
+        "te": "VITలో బి.టెక్, ఎం.టెక్, ఎం.సి.ఏ, ఎం.బి.ఏ, ఎం.ఎస్సీ, బి.ఎస్సీ, పిహెచ్‌డి కోర్సులు ఉన్నాయి. వివరాలకు https://vit.ac.in చూడండి.",
+        "ml": "VIT-യിൽ ബി.ടെക്, എം.ടെക്, എം.സി.എ, എം.ബി.എ, എം.എസ്‌സി, ബി.എസ്‌സി, പിഎച്ച്.ഡി കോഴ്‌സുകൾ ഉണ്ട്. വിവരങ്ങൾക്ക് https://vit.ac.in കാണുക.",
+        "hi": "वीआईटी में बी.टेक, एम.टेक, एमसीए, एमबीए, एम.एससी, बी.एससी और पीएचडी कार्यक्रम उपलब्ध हैं। विवरण के लिए https://vit.ac.in देखें।"
+      }
+    },
+    {
+      "id": "ffcs",
+      "category": "Academics",
+      "verified": true,
+      "questions": [
+        "What is FFCS?",
+        "Explain the Fully Flexible Credit System",
+        "How do I choose courses and faculty?",
+        "FFCS क्या है?",
+        "FFCS என்றால் என்ன?"
+      ],
+      "answers": {
+        "en": "FFCS (Fully Flexible Credit System) lets you choose your own courses, faculty and time slots each semester on VTOP, subject to credits and seat availability.",
+        "ta": "FFCS (முழு நெகிழ்வு கிரெடிட் முறை) மூலம் ஒவ்வொரு செமஸ்டரிலும் VTOP-இல் உங்கள் பாடங்கள், ஆசிரியர் மற்றும் நேரத்தை தேர்வு செய்யலாம்; கிரெடிட் மற்றும் இருக்கை இருப்பு பொறுத்தது.",
+        "te": "FFCS (ఫుల్లీ ఫ్లెక్సిబుల్ క్రెడిట్ సిస్టమ్) ద్వారా ప్రతి సెమిస్టర్‌లో VTOPలో మీ కోర్సులు, అధ్యాపకులు, సమయాలను ఎంచుకోవచ్చు; క్రెడిట్లు, సీట్ల లభ్యతపై ఆధారపడి ఉంటుంది.",
+        "ml": "FFCS (ഫുള്ളി ഫ്ലെക്സിബിൾ ക്രെഡിറ്റ് സിസ്റ്റം) വഴി ഓരോ സെമസ്റ്ററിലും VTOP-ൽ കോഴ്‌സുകളും അധ്യാപകരെയും സമയവും തിരഞ്ഞെടുക്കാം; ക്രെഡിറ്റ്, സീറ്റ് ലഭ്യത അനുസരിച്ച്.",
+        "hi": "FFCS (फुली फ्लेक्सिबल क्रेडिट सिस्टम) में आप हर सेमेस्टर VTOP पर अपने कोर्स, शिक्षक और समय स्वयं चुनते हैं; यह क्रेडिट और सीट उपलब्धता पर निर्भर है।"
+      }
+    },
+    {
+      "id": "attendance",
+      "category": "Academics",
+      "verified": false,
+      "questions": [
+        "What is the minimum attendance required?",
+        "Attendance rules",
+        "75 percent attendance",
+        "न्यूनतम उपस्थिति कितनी चाहिए?",
+        "குறைந்தபட்ச வருகை எவ்வளவு?"
+      ],
+      "answers": {
+        "en": "A minimum of 75% attendance in each course is normally required to be eligible for the Term End Exam.",
+        "ta": "செமஸ்டர் இறுதித் தேர்வு எழுத ஒவ்வொரு பாடத்திலும் குறைந்தது 75% வருகை பொதுவாகத் தேவை.",
+        "te": "సెమిస్టర్ చివరి పరీక్షకు అర్హత పొందడానికి ప్రతి కోర్సులో సాధారణంగా కనీసం 75% హాజరు అవసరం.",
+        "ml": "ടേം എൻഡ് പരീക്ഷയ്ക്ക് യോഗ്യത നേടാൻ ഓരോ കോഴ്‌സിലും സാധാരണയായി കുറഞ്ഞത് 75% ഹാജർ വേണം.",
+        "hi": "टर्म एंड परीक्षा के लिए पात्र होने हेतु आम तौर पर हर कोर्स में कम से कम 75% उपस्थिति आवश्यक है।"
+      }
+    },
+    {
+      "id": "grading",
+      "category": "Academics",
+      "verified": false,
+      "questions": [
+        "How does grading work?",
+        "What are the grades and CGPA scale?",
+        "ग्रेडिंग कैसे होती है?",
+        "கிரேடு முறை என்ன?"
+      ],
+      "answers": {
+        "en": "Grades are S, A, B, C, D, E, F and N, with CGPA on a 10-point scale.",
+        "ta": "கிரேடுகள் S, A, B, C, D, E, F மற்றும் N; CGPA 10 புள்ளி அளவில் கணக்கிடப்படும்.",
+        "te": "గ్రేడ్‌లు S, A, B, C, D, E, F మరియు N; CGPA 10 పాయింట్ల స్కేల్‌లో ఉంటుంది.",
+        "ml": "ഗ്രേഡുകൾ S, A, B, C, D, E, F, N ആണ്; CGPA 10 പോയിന്റ് സ്കെയിലിലാണ്.",
+        "hi": "ग्रेड S, A, B, C, D, E, F और N हैं, और CGPA 10-पॉइंट स्केल पर होता है।"
+      }
+    },
+    {
+      "id": "calendar",
+      "category": "Academics",
+      "verified": false,
+      "questions": [
+        "When do semesters start?",
+        "Academic calendar",
+        "How many semesters are there?",
+        "सेमेस्टर कब शुरू होते हैं?",
+        "செமஸ்டர் எப்போது தொடங்கும்?"
+      ],
+      "answers": {
+        "en": "There are two main semesters: Fall (starts around July–August) and Winter (starts around December–January), plus an optional summer term. Check VTOP or https://vit.ac.in for exact dates.",
+        "ta": "இரண்டு முக்கிய செமஸ்டர்கள்: ஃபால் (ஜூலை–ஆகஸ்ட்) மற்றும் வின்டர் (டிசம்பர்–ஜனவரி), கூடுதலாக விருப்ப கோடை பருவம். சரியான தேதிகளுக்கு VTOP பார்க்கவும்.",
+        "te": "రెండు ప్రధాన సెమిస్టర్లు: ఫాల్ (జూలై–ఆగస్టు) మరియు వింటర్ (డిసెంబర్–జనవరి), అదనంగా ఐచ్ఛిక సమ్మర్ టర్మ్. ఖచ్చితమైన తేదీలకు VTOP చూడండి.",
+        "ml": "രണ്ട് പ്രധാന സെമസ്റ്ററുകൾ: ഫാൾ (ജൂലൈ–ഓഗസ്റ്റ്), വിന്റർ (ഡിസംബർ–ജനുവരി), കൂടാതെ ഓപ്ഷണൽ സമ്മർ ടേം. കൃത്യമായ തീയതികൾക്ക് VTOP കാണുക.",
+        "hi": "दो मुख्य सेमेस्टर होते हैं: फॉल (जुलाई–अगस्त) और विंटर (दिसंबर–जनवरी), साथ में वैकल्पिक समर टर्म। सटीक तिथियों के लिए VTOP देखें।"
+      }
+    },
+    {
+      "id": "vtop",
+      "category": "Academics",
+      "verified": true,
+      "questions": [
+        "What is VTOP?",
+        "How do I check my marks and attendance?",
+        "Student portal login",
+        "VTOP क्या है?",
+        "VTOP என்றால் என்ன?"
+      ],
+      "answers": {
+        "en": "VTOP (https://vtop.vit.ac.in) is the student portal for course registration, attendance, marks, timetable, fees and certificates.",
+        "ta": "VTOP (https://vtop.vit.ac.in) என்பது பாடப் பதிவு, வருகை, மதிப்பெண், அட்டவணை, கட்டணம் மற்றும் சான்றிதழ்களுக்கான மாணவர் இணையதளம்.",
+        "te": "VTOP (https://vtop.vit.ac.in) కోర్సు రిజిస్ట్రేషన్, హాజరు, మార్కులు, టైమ్‌టేబుల్, ఫీజులు, సర్టిఫికెట్ల కోసం విద్యార్థి పోర్టల్.",
+        "ml": "VTOP (https://vtop.vit.ac.in) കോഴ്‌സ് രജിസ്ട്രേഷൻ, ഹാജർ, മാർക്ക്, ടൈംടേബിൾ, ഫീസ്, സർട്ടിഫിക്കറ്റുകൾ എന്നിവയ്ക്കുള്ള വിദ്യാർത്ഥി പോർട്ടലാണ്.",
+        "hi": "VTOP (https://vtop.vit.ac.in) कोर्स पंजीकरण, उपस्थिति, अंक, समय-सारणी, फीस और प्रमाणपत्रों के लिए छात्र पोर्टल है।"
+      }
+    },
+    {
+      "id": "fees",
+      "category": "Fees",
+      "verified": false,
+      "questions": [
+        "How do I pay my fees?",
+        "Fee payment process",
+        "Where do I pay tuition fees?",
+        "फीस कैसे जमा करें?",
+        "கட்டணம் எப்படி செலுத்துவது?"
+      ],
+      "answers": {
+        "en": "Pay fees online through VTOP or the official fee portal. For queries, visit the Accounts Office in the Main Building or write to [PLACEHOLDER fee email].",
+        "ta": "கட்டணத்தை VTOP அல்லது அதிகாரப்பூர்வ கட்டண இணையதளம் மூலம் ஆன்லைனில் செலுத்தலாம். சந்தேகங்களுக்கு மெயின் பில்டிங்கில் உள்ள கட்டண அலுவலகத்தை அணுகவும் அல்லது [PLACEHOLDER fee email] க்கு எழுதவும்.",
+        "te": "ఫీజులను VTOP లేదా అధికారిక ఫీజు పోర్టల్ ద్వారా ఆన్‌లైన్‌లో చెల్లించండి. సందేహాలకు మెయిన్ బిల్డింగ్‌లోని అకౌంట్స్ ఆఫీసును సంప్రదించండి లేదా [PLACEHOLDER fee email] కు రాయండి.",
+        "ml": "ഫീസ് VTOP വഴിയോ ഔദ്യോഗിക ഫീസ് പോർട്ടൽ വഴിയോ ഓൺലൈനായി അടയ്ക്കാം. സംശയങ്ങൾക്ക് മെയിൻ ബിൽഡിംഗിലെ അക്കൗണ്ട്സ് ഓഫീസിൽ ചെല്ലുക അല്ലെങ്കിൽ [PLACEHOLDER fee email] ലേക്ക് എഴുതുക.",
+        "hi": "फीस VTOP या आधिकारिक फीस पोर्टल से ऑनलाइन जमा करें। प्रश्नों के लिए मुख्य भवन में अकाउंट्स ऑफिस जाएँ या [PLACEHOLDER fee email] पर लिखें।"
+      }
+    },
+    {
+      "id": "hostel",
+      "category": "Hostel",
+      "verified": false,
+      "questions": [
+        "Tell me about hostel facilities",
+        "How do I get a hostel room?",
+        "Hostel allotment and warden contact",
+        "हॉस्टल की सुविधाएँ क्या हैं?",
+        "விடுதி வசதிகள் என்ன?",
+        "హాస్టల్ సౌకర్యాలు ఏమిటి?",
+        "ഹോസ്റ്റൽ സൗകര്യങ്ങൾ എന്തൊക്കെ?"
+      ],
+      "answers": {
+        "en": "There are separate men's and ladies' hostels with AC and non-AC rooms and vegetarian, non-vegetarian and special mess options. Allotment follows admission. Warden contact: [PLACEHOLDER warden phone].",
+        "ta": "ஆண்கள் மற்றும் பெண்களுக்கு தனித்தனி விடுதிகள், AC மற்றும் non-AC அறைகள், சைவ, அசைவ மற்றும் சிறப்பு மெஸ் வசதிகள் உள்ளன. சேர்க்கைக்குப் பின் அறை ஒதுக்கீடு. வார்டன் தொடர்பு: [PLACEHOLDER warden phone].",
+        "te": "అబ్బాయిలు, అమ్మాయిలకు వేర్వేరు హాస్టళ్లు, AC మరియు non-AC గదులు, శాకాహార, మాంసాహార, ప్రత్యేక మెస్ ఎంపికలు ఉన్నాయి. అడ్మిషన్ తర్వాత గది కేటాయింపు. వార్డెన్ సంప్రదింపు: [PLACEHOLDER warden phone].",
+        "ml": "ആൺകുട്ടികൾക്കും പെൺകുട്ടികൾക്കും വെവ്വേറെ ഹോസ്റ്റലുകൾ, AC, non-AC മുറികൾ, വെജ്, നോൺ-വെജ്, സ്പെഷ്യൽ മെസ് ഓപ്ഷനുകൾ ഉണ്ട്. പ്രവേശനത്തിനു ശേഷം മുറി അനുവദിക്കും. വാർഡൻ ഫോൺ: [PLACEHOLDER warden phone].",
+        "hi": "लड़कों और लड़कियों के अलग हॉस्टल हैं, AC और non-AC कमरे तथा शाकाहारी, मांसाहारी और स्पेशल मेस विकल्प उपलब्ध हैं। प्रवेश के बाद कमरा आवंटित होता है। वार्डन संपर्क: [PLACEHOLDER warden phone]।"
+      }
+    },
+    {
+      "id": "mess_timings",
+      "category": "Hostel",
+      "verified": false,
+      "questions": [
+        "What are the mess timings?",
+        "Breakfast lunch dinner timings",
+        "Food court timings",
+        "मेस का समय क्या है?",
+        "மெஸ் நேரம் என்ன?",
+        "మెస్ సమయాలు ఏమిటి?",
+        "മെസ് സമയം എന്താണ്?"
+      ],
+      "answers": {
+        "en": "Typical mess timings: breakfast 7:00–9:00, lunch 12:00–14:00, snacks 16:30–17:30, dinner 19:00–21:00.",
+        "ta": "மெஸ் நேரங்கள்: காலை உணவு 7:00–9:00, மதிய உணவு 12:00–14:00, சிற்றுண்டி 16:30–17:30, இரவு உணவு 19:00–21:00.",
+        "te": "మెస్ సమయాలు: అల్పాహారం 7:00–9:00, మధ్యాహ్న భోజనం 12:00–14:00, స్నాక్స్ 16:30–17:30, రాత్రి భోజనం 19:00–21:00.",
+        "ml": "മെസ് സമയം: പ്രഭാതഭക്ഷണം 7:00–9:00, ഉച്ചഭക്ഷണം 12:00–14:00, ലഘുഭക്ഷണം 16:30–17:30, അത്താഴം 19:00–21:00.",
+        "hi": "मेस का समय: नाश्ता 7:00–9:00, दोपहर का भोजन 12:00–14:00, स्नैक्स 16:30–17:30, रात का खाना 19:00–21:00।"
+      }
+    },
+    {
+      "id": "library_timings",
+      "category": "Library",
+      "verified": false,
+      "questions": [
+        "What are the library timings?",
+        "When does the library open and close?",
+        "Library borrowing rules",
+        "पुस्तकालय का समय क्या है?",
+        "நூலக நேரம் என்ன?",
+        "లైబ్రరీ సమయాలు ఏమిటి?",
+        "ലൈബ്രറി സമയം എന്താണ്?"
+      ],
+      "answers": {
+        "en": "The Central Library is typically open 8:30 AM–8:00 PM on working days, with extended reading hours during exams. Carry your ID card to borrow books and use digital resources.",
+        "ta": "மத்திய நூலகம் வேலை நாட்களில் பொதுவாக காலை 8:30 முதல் இரவு 8:00 வரை திறந்திருக்கும்; தேர்வு நேரத்தில் நீட்டிக்கப்படும். புத்தகம் எடுக்க அடையாள அட்டை கொண்டு வாருங்கள்.",
+        "te": "సెంట్రల్ లైబ్రరీ పని దినాల్లో సాధారణంగా ఉదయం 8:30 నుండి రాత్రి 8:00 వరకు తెరిచి ఉంటుంది; పరీక్షల సమయంలో పొడిగిస్తారు. పుస్తకాలు తీసుకోవడానికి ID కార్డు తీసుకురండి.",
+        "ml": "സെൻട്രൽ ലൈബ്രറി പ്രവൃത്തി ദിവസങ്ങളിൽ സാധാരണയായി രാവിലെ 8:30 മുതൽ രാത്രി 8:00 വരെ തുറന്നിരിക്കും; പരീക്ഷാ സമയത്ത് നീട്ടും. പുസ്തകം എടുക്കാൻ ഐഡി കാർഡ് കൊണ്ടുവരിക.",
+        "hi": "सेंट्रल लाइब्रेरी कार्यदिवसों में आम तौर पर सुबह 8:30 से रात 8:00 बजे तक खुली रहती है; परीक्षा के समय समय बढ़ जाता है। किताबें लेने के लिए ID कार्ड साथ लाएँ।"
+      }
+    },
+    {
+      "id": "buildings",
+      "category": "Campus",
+      "verified": false,
+      "questions": [
+        "What are the main buildings on campus?",
+        "Tell me about campus blocks and their purpose",
+        "What is SJT and TT?",
+        "कैंपस की मुख्य इमारतें कौन सी हैं?",
+        "வளாகத்தில் முக்கிய கட்டடங்கள் என்ன?"
+      ],
+      "answers": {
+        "en": "Main Building (MB): administration and offices. Technology Tower (TT): classrooms and labs. Silver Jubilee Tower (SJT): classrooms, labs and faculty cabins. Pearl Research Park (PRP): research labs. Anna Auditorium: major events. Central Library and Sports Complex are also on campus. Ask 'where is …' for directions.",
+        "ta": "மெயின் பில்டிங் (MB): நிர்வாகம் மற்றும் அலுவலகங்கள். டெக்னாலஜி டவர் (TT): வகுப்பறைகள், ஆய்வகங்கள். சில்வர் ஜூபிலி டவர் (SJT): வகுப்பறைகள், ஆய்வகங்கள், ஆசிரியர் அறைகள். பியர்ல் ரிசர்ச் பார்க் (PRP): ஆராய்ச்சி ஆய்வகங்கள். அண்ணா அரங்கம்: பெரிய நிகழ்வுகள். 'எங்கே' என்று கேட்டால் வழி காட்டுவேன்.",
+        "te": "మెయిన్ బిల్డింగ్ (MB): పరిపాలన, కార్యాలయాలు. టెక్నాలజీ టవర్ (TT): తరగతి గదులు, ల్యాబ్‌లు. సిల్వర్ జూబ్లీ టవర్ (SJT): తరగతులు, ల్యాబ్‌లు, అధ్యాపకుల క్యాబిన్లు. పెర్ల్ రీసెర్చ్ పార్క్ (PRP): పరిశోధన ల్యాబ్‌లు. అన్నా ఆడిటోరియం: పెద్ద కార్యక్రమాలు. 'ఎక్కడ' అని అడిగితే దారి చూపిస్తాను.",
+        "ml": "മെയിൻ ബിൽഡിംഗ് (MB): ഭരണവും ഓഫീസുകളും. ടെക്നോളജി ടവർ (TT): ക്ലാസ്മുറികൾ, ലാബുകൾ. സിൽവർ ജൂബിലി ടവർ (SJT): ക്ലാസ്മുറികൾ, ലാബുകൾ, അധ്യാപക ക്യാബിനുകൾ. പേൾ റിസർച്ച് പാർക്ക് (PRP): ഗവേഷണ ലാബുകൾ. അണ്ണാ ഓഡിറ്റോറിയം: വലിയ പരിപാടികൾ. 'എവിടെ' എന്ന് ചോദിച്ചാൽ വഴി കാണിക്കാം.",
+        "hi": "मुख्य भवन (MB): प्रशासन और कार्यालय। टेक्नोलॉजी टावर (TT): कक्षाएँ और लैब। सिल्वर जुबली टावर (SJT): कक्षाएँ, लैब और फैकल्टी केबिन। पर्ल रिसर्च पार्क (PRP): शोध प्रयोगशालाएँ। अन्ना ऑडिटोरियम: बड़े कार्यक्रम। 'कहाँ है' पूछें तो रास्ता दिखाऊँगा।"
+      }
+    },
+    {
+      "id": "prp_info",
+      "category": "Campus",
+      "verified": false,
+      "questions": [
+        "What is PRP?",
+        "What is Pearl Research Park used for?",
+        "PRP क्या है?",
+        "PRP என்றால் என்ன?"
+      ],
+      "answers": {
+        "en": "Pearl Research Park (PRP) hosts research labs and centres. Say 'route to PRP' for directions.",
+        "ta": "பியர்ல் ரிசர்ச் பார்க் (PRP) ஆராய்ச்சி ஆய்வகங்கள் மற்றும் மையங்களைக் கொண்டது. வழிக்கு 'PRP எங்கே' என்று கேளுங்கள்.",
+        "te": "పెర్ల్ రీసెర్చ్ పార్క్ (PRP)లో పరిశోధన ల్యాబ్‌లు, కేంద్రాలు ఉన్నాయి. దారి కోసం 'PRP ఎక్కడ' అని అడగండి.",
+        "ml": "പേൾ റിസർച്ച് പാർക്കിൽ (PRP) ഗവേഷണ ലാബുകളും കേന്ദ്രങ്ങളും ഉണ്ട്. വഴിക്ക് 'PRP എവിടെ' എന്ന് ചോദിക്കുക.",
+        "hi": "पर्ल रिसर्च पार्क (PRP) में शोध प्रयोगशालाएँ और केंद्र हैं। रास्ते के लिए 'PRP कहाँ है' पूछें।"
+      }
+    },
+    {
+      "id": "office_timings",
+      "category": "Timings",
+      "verified": false,
+      "questions": [
+        "What are the office timings?",
+        "When are the administrative offices open?",
+        "कार्यालय का समय क्या है?",
+        "அலுவலக நேரம் என்ன?"
+      ],
+      "answers": {
+        "en": "Administrative offices usually run 9:00 AM–5:00 PM Monday to Friday, with a half day on Saturday.",
+        "ta": "நிர்வாக அலுவலகங்கள் பொதுவாக திங்கள் முதல் வெள்ளி காலை 9:00 முதல் மாலை 5:00 வரை, சனிக்கிழமை அரை நாள் செயல்படும்.",
+        "te": "పరిపాలన కార్యాలయాలు సాధారణంగా సోమవారం నుండి శుక్రవారం ఉదయం 9:00 నుండి సాయంత్రం 5:00 వరకు, శనివారం సగం రోజు పనిచేస్తాయి.",
+        "ml": "ഭരണ ഓഫീസുകൾ സാധാരണയായി തിങ്കൾ മുതൽ വെള്ളി വരെ രാവിലെ 9:00 മുതൽ വൈകിട്ട് 5:00 വരെയും ശനിയാഴ്ച പകുതി ദിവസവും പ്രവർത്തിക്കും.",
+        "hi": "प्रशासनिक कार्यालय आम तौर पर सोमवार से शुक्रवार सुबह 9:00 से शाम 5:00 बजे तक और शनिवार को आधे दिन खुलते हैं।"
+      }
+    },
+    {
+      "id": "health",
+      "category": "Campus",
+      "verified": false,
+      "questions": [
+        "Is there a hospital on campus?",
+        "Medical facilities and emergency number",
+        "कैंपस में अस्पताल है?",
+        "வளாகத்தில் மருத்துவமனை உள்ளதா?"
+      ],
+      "answers": {
+        "en": "The campus Health Centre provides medical care for students and staff. Emergency ambulance number: [PLACEHOLDER]. Ask 'where is the health centre' for directions.",
+        "ta": "வளாக ஆரோக்கிய மையம் மாணவர்கள் மற்றும் ஊழியர்களுக்கு மருத்துவ சேவை வழங்குகிறது. அவசர ஆம்புலன்ஸ் எண்: [PLACEHOLDER].",
+        "te": "క్యాంపస్ హెల్త్ సెంటర్ విద్యార్థులు, సిబ్బందికి వైద్య సేవలు అందిస్తుంది. అత్యవసర అంబులెన్స్ నంబర్: [PLACEHOLDER].",
+        "ml": "ക്യാമ്പസ് ഹെൽത്ത് സെന്റർ വിദ്യാർത്ഥികൾക്കും ജീവനക്കാർക്കും വൈദ്യസഹായം നൽകുന്നു. അടിയന്തര ആംബുലൻസ് നമ്പർ: [PLACEHOLDER].",
+        "hi": "कैंपस हेल्थ सेंटर छात्रों और कर्मचारियों को चिकित्सा सुविधा देता है। आपातकालीन एम्बुलेंस नंबर: [PLACEHOLDER]।"
+      }
+    },
+    {
+      "id": "transport",
+      "category": "Travel",
+      "verified": false,
+      "questions": [
+        "How do I reach VIT from the railway station or airport?",
+        "Nearest railway station and airport",
+        "वीआईटी तक कैसे पहुँचें?",
+        "வி.ஐ.டி-க்கு எப்படி வருவது?"
+      ],
+      "answers": {
+        "en": "Katpadi Junction is the nearest railway station. Chennai airport is about 140 km and Bengaluru airport about 200 km away by road. Buses and autos run from Katpadi and Vellore.",
+        "ta": "அருகிலுள்ள ரயில் நிலையம் காட்பாடி சந்திப்பு. சென்னை விமான நிலையம் சுமார் 140 கி.மீ, பெங்களூரு சுமார் 200 கி.மீ. காட்பாடி மற்றும் வேலூரில் இருந்து பேருந்து, ஆட்டோ உள்ளன.",
+        "te": "సమీప రైల్వే స్టేషన్ కాట్పాడి జంక్షన్. చెన్నై విమానాశ్రయం సుమారు 140 కి.మీ, బెంగళూరు సుమారు 200 కి.మీ. కాట్పాడి, వెల్లూరు నుండి బస్సులు, ఆటోలు ఉంటాయి.",
+        "ml": "ഏറ്റവും അടുത്ത റെയിൽവേ സ്റ്റേഷൻ കാട്പാടി ജംഗ്ഷനാണ്. ചെന്നൈ വിമാനത്താവളം ഏകദേശം 140 കി.മീ, ബെംഗളൂരു ഏകദേശം 200 കി.മീ. കാട്പാടിയിൽ നിന്നും വെല്ലൂരിൽ നിന്നും ബസും ഓട്ടോയും ലഭ്യമാണ്.",
+        "hi": "सबसे नज़दीकी रेलवे स्टेशन काटपाडी जंक्शन है। चेन्नई हवाई अड्डा लगभग 140 किमी और बेंगलुरु लगभग 200 किमी दूर है। काटपाडी और वेल्लोर से बस व ऑटो मिलते हैं।"
+      }
+    },
+    {
+      "id": "placements",
+      "category": "Careers",
+      "verified": false,
+      "questions": [
+        "How do placements work?",
+        "Who handles internships and campus recruitment?",
+        "प्लेसमेंट कैसे होता है?",
+        "பிளேஸ்மென்ட் எப்படி நடக்கும்?"
+      ],
+      "answers": {
+        "en": "The Career Development Centre (CDC) coordinates placements and internships; drives usually begin in the pre-final or final year. Contact: [PLACEHOLDER CDC email].",
+        "ta": "தொழில் மேம்பாட்டு மையம் (CDC) பிளேஸ்மென்ட் மற்றும் இன்டர்ன்ஷிப்களை ஒருங்கிணைக்கிறது; தேர்வுகள் பொதுவாக இறுதி ஆண்டுக்கு முன்/இறுதியில் தொடங்கும். தொடர்பு: [PLACEHOLDER CDC email].",
+        "te": "కెరీర్ డెవలప్‌మెంట్ సెంటర్ (CDC) ప్లేస్‌మెంట్లు, ఇంటర్న్‌షిప్‌లను సమన్వయం చేస్తుంది; డ్రైవ్‌లు సాధారణంగా ప్రీ-ఫైనల్/ఫైనల్ ఇయర్‌లో మొదలవుతాయి. సంప్రదింపు: [PLACEHOLDER CDC email].",
+        "ml": "കരിയർ ഡെവലപ്മെന്റ് സെന്റർ (CDC) പ്ലേസ്മെന്റും ഇന്റേൺഷിപ്പും ഏകോപിപ്പിക്കുന്നു; ഡ്രൈവുകൾ സാധാരണയായി പ്രീ-ഫൈനൽ/ഫൈനൽ വർഷത്തിൽ തുടങ്ങും. ബന്ധപ്പെടാൻ: [PLACEHOLDER CDC email].",
+        "hi": "करियर डेवलपमेंट सेंटर (CDC) प्लेसमेंट और इंटर्नशिप का समन्वय करता है; ड्राइव आम तौर पर प्री-फाइनल या फाइनल वर्ष में शुरू होती हैं। संपर्क: [PLACEHOLDER CDC email]।"
+      }
+    },
+    {
+      "id": "faculty_contacts",
+      "category": "Faculty",
+      "verified": false,
+      "questions": [
+        "How do I contact a professor?",
+        "Faculty email and cabin location",
+        "Who is the dean of my school?",
+        "प्रोफेसर से संपर्क कैसे करें?",
+        "ஆசிரியரை எப்படி தொடர்பு கொள்வது?"
+      ],
+      "answers": {
+        "en": "Find faculty on your school's page at https://vit.ac.in. Emails are usually firstname.lastname@vit.ac.in. Cabins are in the academic blocks (SJT/TT). Dean of your school: [PLACEHOLDER name, phone].",
+        "ta": "உங்கள் பள்ளியின் பக்கத்தில் https://vit.ac.in இல் ஆசிரியர்களைக் காணலாம். மின்னஞ்சல் பொதுவாக firstname.lastname@vit.ac.in. அறைகள் SJT/TT கட்டடங்களில். பள்ளி டீன்: [PLACEHOLDER name, phone].",
+        "te": "మీ స్కూల్ పేజీలో https://vit.ac.in లో అధ్యాపకులను చూడవచ్చు. ఈమెయిల్ సాధారణంగా firstname.lastname@vit.ac.in. క్యాబిన్లు SJT/TT భవనాల్లో. స్కూల్ డీన్: [PLACEHOLDER name, phone].",
+        "ml": "നിങ്ങളുടെ സ്കൂളിന്റെ പേജിൽ https://vit.ac.in ൽ അധ്യാപകരെ കാണാം. ഇമെയിൽ സാധാരണയായി firstname.lastname@vit.ac.in. ക്യാബിനുകൾ SJT/TT കെട്ടിടങ്ങളിൽ. സ്കൂൾ ഡീൻ: [PLACEHOLDER name, phone].",
+        "hi": "अपने स्कूल के पेज पर https://vit.ac.in में फैकल्टी देखें। ईमेल आम तौर पर firstname.lastname@vit.ac.in होता है। केबिन SJT/TT में हैं। स्कूल डीन: [PLACEHOLDER name, phone]।"
+      }
+    },
+    {
+      "id": "clubs_fests",
+      "category": "Campus Life",
+      "verified": false,
+      "questions": [
+        "What clubs and fests does VIT have?",
+        "Tell me about Gravitas and Riviera",
+        "sports and student clubs",
+        "कौन से फेस्ट होते हैं?",
+        "என்ன விழாக்கள் நடக்கும்?"
+      ],
+      "answers": {
+        "en": "VIT hosts the technical fest Gravitas and the cultural fest Riviera, plus many student clubs and chapters. Sports facilities are at the Sports Complex.",
+        "ta": "வி.ஐ.டி-யில் தொழில்நுட்ப விழா கிராவிடாஸ், கலை விழா ரிவியரா மற்றும் பல மாணவர் கழகங்கள் உள்ளன. விளையாட்டு வசதிகள் விளையாட்டு வளாகத்தில் உள்ளன.",
+        "te": "VITలో సాంకేతిక ఫెస్ట్ గ్రావిటాస్, సాంస్కృతిక ఫెస్ట్ రివియెరా, అనేక విద్యార్థి క్లబ్బులు ఉన్నాయి. క్రీడా సౌకర్యాలు స్పోర్ట్స్ కాంప్లెక్స్‌లో ఉన్నాయి.",
+        "ml": "VIT-യിൽ ടെക്നിക്കൽ ഫെസ്റ്റ് ഗ്രാവിറ്റാസ്, കൾച്ചറൽ ഫെസ്റ്റ് റിവിയേറ, നിരവധി വിദ്യാർത്ഥി ക്ലബ്ബുകൾ എന്നിവയുണ്ട്. കായിക സൗകര്യങ്ങൾ സ്പോർട്സ് കോംപ്ലക്സിലാണ്.",
+        "hi": "वीआईटी में तकनीकी फेस्ट ग्रेविटास, सांस्कृतिक फेस्ट रिवेरा और कई छात्र क्लब हैं। खेल सुविधाएँ स्पोर्ट्स कॉम्प्लेक्स में हैं।"
+      }
+    },
+    {
+      "id": "lost-found",
+      "category": "Campus Life",
+      "verified": false,
+      "questions": [
+        "Where can I report a lost item?",
+        "I lost my ID card on campus",
+        "Lost and found office",
+        "வளாகத்தில் பொருள் தொலைந்தால் என்ன செய்வது?",
+        "క్యాంపస్‌లో వస్తువు పోతే ఏమి చేయాలి?",
+        "ക്യാമ്പസിൽ സാധനം നഷ്ടപ്പെട്ടാൽ എന്തുചെയ്യണം?",
+        "कैंपस में सामान खो जाए तो क्या करें?"
+      ],
+      "answers": {
+        "en": "If you lose an item, contact the campus security/help desk and share where and when you last had it. For a lost student ID card, also ask the relevant student administrative office about replacement. Confirm the current process with VIT."
+      }
+    },
+    {
+      "id": "medical-help",
+      "category": "Campus Life",
+      "verified": false,
+      "questions": [
+        "Where can I get medical help on campus?",
+        "Campus medical centre",
+        "I need first aid at VIT",
+        "வளாகத்தில் மருத்துவ உதவி எங்கே கிடைக்கும்?",
+        "క్యాంపస్‌లో వైద్య సహాయం ఎక్కడ లభిస్తుంది?",
+        "ക്യാമ്പസിൽ വൈദ്യസഹായം എവിടെ ലഭിക്കും?",
+        "कैंपस में चिकित्सा सहायता कहाँ मिलेगी?"
+      ],
+      "answers": {
+        "en": "For non-emergency medical help, contact the campus health centre or security/help desk for the current location and hours. In an emergency, contact local emergency services or campus security immediately."
+      }
+    },
+    {
+      "id": "wifi",
+      "category": "IT Services",
+      "verified": false,
+      "questions": [
+        "How do I connect to campus Wi-Fi?",
+        "VIT student WiFi login",
+        "Internet access on campus",
+        "வளாக Wi-Fi-யுடன் எப்படி இணைவது?",
+        "క్యాంపస్ Wi-Fiకి ఎలా కనెక్ట్ అవ్వాలి?",
+        "ക്യാമ്പസ് Wi-Fi-യിലേക്ക് എങ്ങനെ ബന്ധിപ്പിക്കാം?",
+        "कैंपस Wi-Fi से कैसे जुड़ें?"
+      ],
+      "answers": {
+        "en": "Use the current student/staff network instructions and credentials issued by VIT IT services. If you cannot connect, contact the campus IT help desk; do not share your password with anyone."
+      }
+    },
+    {
+      "id": "scholarships",
+      "category": "Fees",
+      "verified": false,
+      "questions": [
+        "How can I find scholarship information?",
+        "VIT scholarships and financial aid",
+        "Scholarship eligibility",
+        "உதவித்தொகை விவரங்களை எங்கே பார்க்கலாம்?",
+        "స్కాలర్‌షిప్ వివరాలు ఎక్కడ చూడాలి?",
+        "സ്കോളർഷിപ്പ് വിവരങ്ങൾ എവിടെ കാണാം?",
+        "छात्रवृत्ति की जानकारी कहाँ मिलेगी?"
+      ],
+      "answers": {
+        "en": "Scholarship schemes, eligibility and deadlines may change by programme and academic year. Check the official VIT website and current admissions/academic notices, or contact the relevant office before applying."
+      }
+    },
+    {
+      "id": "exam-schedule",
+      "category": "Academics",
+      "verified": false,
+      "questions": [
+        "Where can I check the exam timetable?",
+        "Exam dates and schedule",
+        "When are semester exams?",
+        "தேர்வு அட்டவணையை எங்கே பார்க்கலாம்?",
+        "పరీక్షల టైమ్‌టేబుల్ ఎక్కడ చూడాలి?",
+        "പരീക്ഷാ ടൈംടേബിൾ എവിടെ കാണാം?",
+        "परीक्षा की समय-सारणी कहाँ देखें?"
+      ],
+      "answers": {
+        "en": "Check the current timetable and announcements on the official student portal or notices from your school/department. Exam dates can change, so rely on the latest official notice."
+      }
+    },
+    {
+      "id": "clubs",
+      "category": "Campus Life",
+      "verified": false,
+      "questions": [
+        "How do I join student clubs?",
+        "VIT clubs and student chapters",
+        "Where can I find campus events?",
+        "மாணவர் மன்றங்களில் எப்படி சேர்வது?",
+        "విద్యార్థి క్లబ్‌లలో ఎలా చేరాలి?",
+        "വിദ്യാർത്ഥി ക്ലബ്ബുകളിൽ എങ്ങനെ ചേരാം?",
+        "छात्र क्लबों में कैसे शामिल हों?"
+      ],
+      "answers": {
+        "en": "Look for current club and chapter announcements, student activity notices and campus event posts. Contact the club's listed student coordinators to confirm recruitment dates and eligibility."
+      }
+    },
+    {
+      "id": "transport",
+      "category": "Travel",
+      "verified": false,
+      "questions": [
+        "How do I find campus transport information?",
+        "Bus and transport details",
+        "Campus shuttle timings",
+        "வளாக போக்குவரத்து விவரங்கள் எங்கே?",
+        "క్యాంపస్ రవాణా వివరాలు ఎక్కడ?",
+        "ക്യാമ്പസ് ഗതാഗത വിവരങ്ങൾ എവിടെ?",
+        "कैंपस परिवहन की जानकारी कहाँ मिलेगी?"
+      ],
+      "answers": {
+        "en": "Transport routes and timings can change. Check the latest official campus transport notice or ask the campus administration/help desk for the current schedule."
+      }
+    },
+    {
+      "id": "student-portal",
+      "category": "IT Services",
+      "verified": false,
+      "questions": [
+        "Where do I find student portal login help?",
+        "I cannot log in to the student portal",
+        "Student account password reset",
+        "மாணவர் போர்ட்டலில் உள்நுழைய முடியவில்லை",
+        "స్టూడెంట్ పోర్టల్‌లో లాగిన్ కావడం లేదు",
+        "സ്റ്റുഡന്റ് പോർട്ടലിൽ ലോഗിൻ ചെയ്യാൻ കഴിയുന്നില്ല",
+        "स्टूडेंट पोर्टल में लॉगिन नहीं हो रहा है"
+      ],
+      "answers": {
+        "en": "Use the official student portal and its password-reset or account-help process. Never share your password or one-time verification codes. If the issue continues, contact the relevant VIT IT support team."
+      }
+    }
+  ]
+}

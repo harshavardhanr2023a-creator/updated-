@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b2a5b">
+<title>Campus Connect | VIT Vellore</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header class="hero">
+    <div class="hero-top">
+      <div class="brand">VIT Vellore · Virtual Campus Assistant</div>
+      <button id="menuBtn" class="icon-btn" aria-label="Menu and settings" aria-controls="drawer" aria-expanded="false">☰</button>
+    </div>
+    <h1>CampusConnect</h1>
+    <p>Intelligent College FAQ and Navigation Chatbot. Speak or type, get answers in your language and one-tap directions.</p>
+    <div class="chips"><span>English</span><span>தமிழ்</span><span>తెలుగు</span><span>മലയാളം</span><span>हिन्दी</span></div>
+  </header>
+
+  <nav class="home-actions" aria-label="Campus tools">
+    <button id="exploreBtn" class="explore-btn" type="button" aria-expanded="false" aria-controls="faqExplorer">⌕ Explore FAQs <span>Browse by topic</span></button>
+  </nav>
+  <section id="faqExplorer" class="faq-explorer" hidden aria-label="Frequently asked questions">
+    <div class="faq-heading"><div><h2>Find an answer</h2><p>Search campus questions by topic</p></div><button id="closeFaqBtn" class="close-faq" type="button" aria-label="Close FAQ explorer">✕</button></div>
+    <label class="faq-search-wrap"><span>⌕</span><input id="faqSearch" type="search" placeholder="Search fees, hostel, library…" aria-label="Search FAQs"></label>
+    <div id="faqCategories" class="faq-categories" aria-label="FAQ categories"></div>
+    <div id="faqResults" class="faq-results"></div>
+    <p class="faq-note">Some details can change. Confirm important dates, fees and contact details with official VIT sources.</p>
+  </section>
+  <main id="chat" aria-live="polite"></main>
+
+  <footer class="composer">
+    <div id="quick" class="quick" aria-label="Quick questions"></div>
+    <div id="status" class="status" hidden></div>
+    <form id="form" autocomplete="off">
+      <button type="button" id="micBtn" class="mic" aria-label="Tap to speak">🎙️</button>
+      <input id="input" type="text" enterkeyhint="send" placeholder="Type your question…" aria-label="Type your question">
+      <button type="submit" id="sendBtn" class="send" aria-label="Send">➤</button>
+    </form>
+  </footer>
+</div>
+
+<div id="scrim" class="scrim" hidden></div>
+<aside id="drawer" class="drawer" aria-hidden="true">
+  <h2>🎓 Campus Connect</h2>
+  <p class="cap">Intelligent College FAQ and Navigation Chatbot</p>
+  <label class="row"><span>🔊 Speak replies</span><input type="checkbox" id="optSpeak"></label>
+  <label class="row"><span>🗺️ Auto-open maps</span><input type="checkbox" id="optMaps" checked></label>
+  <label class="row col"><span>🎙️ Voice language</span>
+    <select id="optVoiceLang">
+      <option value="en">English</option><option value="ta">தமிழ்</option><option value="te">తెలుగు</option>
+      <option value="ml">മലയാളം</option><option value="hi">हिन्दी</option>
+    </select>
+  </label>
+  <h3>Quick questions</h3>
+  <div id="quickList" class="qlist"></div>
+  <button id="clearBtn" class="btn">🗑️ Clear chat</button>
+  <p class="cap">Languages: English · தமிழ் · తెలుగు · മലയാളം · हिन्दी<br>Works offline. Directions open in Google Maps.</p>
+</aside>
+
+<script src="data.js"></script>
+<script src="nlp.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

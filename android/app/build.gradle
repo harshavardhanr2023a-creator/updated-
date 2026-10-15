@@ -1,0 +1,45 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.campusconnect.app'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.campusconnect.app"
+        minSdk 26            // Android 8.0+
+        targetSdk 34
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    // The web app lives in ../web and is packaged as-is into the APK's assets.
+    sourceSets {
+        main { assets.srcDirs = ['../../web'] }
+    }
+
+    // Optional release signing: set CC_KEYSTORE, CC_KEYSTORE_PASSWORD, CC_KEY_ALIAS, CC_KEY_PASSWORD.
+    signingConfigs {
+        release {
+            if (System.getenv("CC_KEYSTORE")) {
+                storeFile file(System.getenv("CC_KEYSTORE"))
+                storePassword System.getenv("CC_KEYSTORE_PASSWORD")
+                keyAlias System.getenv("CC_KEY_ALIAS")
+                keyPassword System.getenv("CC_KEY_PASSWORD")
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false   // keep the JavascriptInterface methods intact
+            if (System.getenv("CC_KEYSTORE")) signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
