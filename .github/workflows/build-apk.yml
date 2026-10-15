@@ -1,25 +1,75 @@
+
 name: Build Android APK
+
 on:
   push:
     branches: [main, master]
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   apk:
     runs-on: ubuntu-latest
+
+    env:
+      ANDROID_HOME: /usr/local/lib/android/sdk
+      ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with: { node-version: 20 }
-      - run: node tests/nlp.test.js          # logic tests
-      - uses: actions/setup-java@v4
-        with: { distribution: temurin, java-version: 17 }
-      - uses: android-actions/setup-android@v3
-      - run: python3 scripts/build_data.py
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run NLP tests
+        run: node tests/nlp.test.js
+
+      - name: Setup Java
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Locate Android SDK Manager
+        shell: bash
+        run: |
+          SDKMANAGER=$(find "$ANDROID_HOME/cmdline-tools" \
+            -type f -name sdkmanager 2>/dev/null | head -n 1)
+
+          if [ -z "$SDKMANAGER" ]; then
+            echo "Android SDK manager was not found."
+            exit 1
+          fi
+
+          echo "SDKMANAGER=$SDKMANAGER" >> "$GITHUB_ENV"
+
+      - name: Install Android SDK packages
+        shell: bash
+        run: |
+          yes | "$SDKMANAGER" --licenses || true
+          "$SDKMANAGER" \
+            "platform-tools" \
+            "platforms;android-34" \
+            "build-tools;34.0.0"
+
+      - name: Build data
+        run: python3 scripts/build_data.py
+
       - name: Build debug APK
         working-directory: android
-        run: chmod +x gradlew && ./gradlew --no-daemon assembleDebug
-      - uses: actions/upload-artifact@v4
+        run: |
+          chmod +x gradlew
+          ./gradlew --no-daemon assembleDebug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
         with:
           name: CampusConnect-debug-apk
           path: android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 7
