@@ -12,11 +12,11 @@ permissions:
 
 jobs:
   build:
-    name: Build CampusConnect
+    name: Build CampusConnect APK
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Node.js
@@ -40,13 +40,11 @@ jobs:
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
-
-      - name: Install Android SDK packages
-        run: |
-          sdkmanager --install "platform-tools" "platforms;android-34" "build-tools;34.0.0"
+        with:
+          packages: "platform-tools,platforms;android-34,build-tools;34.0.0"
 
       - name: Prepare application data
-        run: python scripts/build_data.py
+        run: python3 scripts/build_data.py
 
       - name: Build debug APK
         working-directory: android
@@ -54,7 +52,7 @@ jobs:
           chmod +x gradlew
           ./gradlew --no-daemon assembleDebug
 
-      - name: Upload APK
+      - name: Upload debug APK
         uses: actions/upload-artifact@v4
         with:
           name: CampusConnect-debug-apk
